@@ -1,0 +1,19 @@
+.box-shadov {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+.box-shadov:hover {
+    background-color: black;
+    box-shadow: 200px 200px gold,
+    -200px -200px green,
+    -200px 200px blue,
+    200px -200px brown,
+     200px 0px blueviolet,
+    0px 200px rgb(79, 100, 64),
+    -200px 0px fuchsia,
+    0px -200px salmon;
+}
